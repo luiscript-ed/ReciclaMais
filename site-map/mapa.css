@@ -110,7 +110,7 @@ nav{
 }
 
 
-nav a{
+nav a {
 
     text-decoration:none;
 
@@ -519,6 +519,9 @@ position: relative;
     height:650px;
 
     border-radius:15px;
+     flex:1;
+
+    border-radius:15px;
 
 }
 
@@ -613,14 +616,6 @@ position: relative;
 
 .sidebar.active{
     width:640px;
-}
-
-#map{
-
-    flex:1;
-
-    border-radius:15px;
-
 }
 
 .cardProjeto{
@@ -994,5 +989,250 @@ position: relative;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 
     gap:15px;
+
+}
+
+.sobre{
+
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:60px 0;
+
+}
+
+.recompensas{
+
+    width:90%;
+    max-width:1200px;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+.tituloRecompensas{
+
+    text-align:center;
+    margin-bottom:35px;
+
+}
+
+.tituloRecompensas h2{
+
+    color:#23a455;
+    font-size:2rem;
+
+}
+
+.tituloRecompensas p{
+
+    color:#666;
+    margin-top:10px;
+
+}
+
+.cardsRecompensas{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.cardInfo{
+
+    background:#f7faf8;
+
+    border:2px solid #dcefe2;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.cardInfo:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.12);
+
+}
+
+.icone{
+
+    font-size:2.5rem;
+
+}
+
+.cardInfo h3{
+
+    margin:12px 0;
+
+    color:#23a455;
+
+    font-size:1.8rem;
+
+}
+
+.cardInfo p{
+
+    color:#666;
+
+}
+
+.progresso{
+
+    margin-top:40px;
+
+}
+
+.textoProgresso{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:12px;
+
+    font-weight:bold;
+
+}
+
+.barra{
+
+    width:100%;
+
+    height:20px;
+
+    background:#ddd;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+}
+
+.barraInterna{
+
+    width:60%;
+
+    height:100%;
+
+    background:linear-gradient(90deg,#23a455,#36d36f);
+
+    border-radius:50px;
+
+}
+
+.medalhas{
+
+    margin-top:40px;
+
+}
+
+.medalhas h3{
+
+    margin-bottom:20px;
+
+    color:#23a455;
+
+}
+
+.listaMedalhas{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.medalha{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    background:#ececec;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:2rem;
+
+    filter:grayscale(1);
+
+    transition:.3s;
+
+}
+
+.medalha.desbloqueada{
+
+    background:#e9fff0;
+
+    filter:none;
+
+    border:2px solid #23a455;
+
+}
+
+.medalha:hover{
+
+    transform:scale(1.08);
+
+}
+
+.historico{
+
+    margin-top:40px;
+
+}
+
+.historico h3{
+
+    color:#23a455;
+
+    margin-bottom:20px;
+
+}
+
+.historico ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.historico li{
+
+    padding:15px;
+
+    margin-bottom:12px;
+
+    border-left:5px solid #23a455;
+
+    background:#f8f8f8;
+
+    border-radius:8px;
 
 }

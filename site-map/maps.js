@@ -317,6 +317,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const botaoAbrir = document.getElementById("buttonFilter");
   const painel = document.querySelector(".painelFiltros");
 
+
   const painelMapa = document.getElementById("painelEsq");
   const botaoAbrirPainel = document.getElementById("button");
   const mapaAba = document.querySelector(".container-mapa");

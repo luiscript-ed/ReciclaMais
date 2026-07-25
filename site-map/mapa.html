@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Observatório Digital</title>
+    <title>RECICLA+ - map</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="recursos1/mapa.css">
+    <link rel="stylesheet" href="mapa.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
@@ -27,11 +27,14 @@
             </div>
 
         <nav>
+            <button> Quer saber mais sobre o RECICLA+ ?</button>
+
             <button id="button">Dicas sobre como reciclar e ser sustentável?</button>
+
             <div class="user-profile" >        
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvbJuYcqvVs_79X4Yy4Hj0wxfVNXwMsStUS_vH77l0SEomRdXSbLgIWrzU&s=10" alt="Foto de perfil" id="userimg">
                 <h3 id="username">Sr. Fulano</h3>
-                </div>
+            </div>
 
         </nav>
     </header>
@@ -139,11 +142,108 @@
 
 </section>
 
-</section>
+<div class="sobre">
+
+    <section class="recompensas">
+
+        <div class="tituloRecompensas">
+
+            <h2>♻ Programa de Recompensas</h2>
+
+            <p>
+                Escaneie QR Codes nos pontos parceiros da Recicla+ e acumule
+                pontos para desbloquear novas medalhas.
+            </p>
+
+        </div>
+
+        <div class="cardsRecompensas">
+
+            <div class="cardInfo">
+                <span class="icone">⭐</span>
+                <h3 id="pontosUsuario">180</h3>
+                <p>Pontos</p>
+            </div>
+
+            <div class="cardInfo">
+                <span class="icone">🏅</span>
+                <h3 id="medalhaUsuario">Guardião Verde</h3>
+                <p>Medalha Atual</p>
+            </div>
+
+            <div class="cardInfo">
+                <span class="icone">🎯</span>
+                <h3>300</h3>
+                <p>Próxima Meta</p>
+            </div>
+
+            <div class="cardInfo">
+                <span class="icone">📷</span>
+                <h3 id="qrLidos">8</h3>
+                <p>QR Codes Lidos</p>
+            </div>
+
+        </div>
+
+        <div class="progresso">
+
+            <div class="textoProgresso">
+
+                <span>180 / 300 pontos</span>
+
+                <span>60%</span>
+
+            </div>
+
+            <div class="barra">
+
+                <div class="barraInterna"></div>
+
+            </div>
+
+        </div>
+
+        <div class="medalhas">
+
+            <h3>Medalhas</h3>
+
+            <div class="listaMedalhas">
+
+                <div class="medalha desbloqueada">🥉</div>
+
+                <div class="medalha desbloqueada">🥈</div>
+
+                <div class="medalha">🥇</div>
+
+                <div class="medalha">💎</div>
+
+            </div>
+
+        </div>
+
+        <div class="historico">
+
+            <h3>Últimas atividades</h3>
+
+            <ul>
+
+                <li>+20 pontos • EcoPonto Centro</li>
+
+                <li>+15 pontos • Escola Municipal</li>
+
+                <li>+30 pontos • Shopping Verde</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+</div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="recursos1/maps.js"></script>
+    <script src="maps.js"></script>
     
     
     <footer>
