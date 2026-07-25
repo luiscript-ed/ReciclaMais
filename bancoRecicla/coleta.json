@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "nome": "Projeto Abrace",
+    "categoria": "Educação",
+    "bairro": "Centro",
+    "descricao": "Projeto voltado ao reforço escolar e inclusão social.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5sBw56UrxuEvDn6hQ6-9-oRKKQ4ngkfb6ASt4SzyEaQ&s",
+    "latitude": -12.702880103137602,
+    "longitude": -38.325156552669014
+  },
+  {
+    "id": 2,
+    "nome": "Projeto Nova Vida",
+    "categoria": "Saúde",
+    "bairro": "Nova Vitória",
+    "descricao": "Projeto de atendimento comunitário.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-fUcKMumrSm8EBhMrQn1HtyFfnWyT4UuqXyJi1_Pbw&s=10",
+    "latitude": -12.702676562367316,
+    "longitude": -38.311871981158966
+  },
+  {
+    "id": 3,
+    "nome": "Cidade do Saber",
+    "categoria": "Educação e Cultura",
+    "bairro": "Centro",
+    "descricao": "Complexo público de educação, cultura e esporte que oferece formação artística e profissional.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJ_gLs2-hvVMq6ABsQCMyas56qdRyKzph25GTCfKSn3mxBxpNjULM3PaU&s=10",
+    "latitude": -12.69746786391633, 
+    "longitude": -38.32188660957569
+  },
+  {
+    "id": 4,
+    "nome": "Fundação Ca&Ba",
+    "categoria": "Arte-Educação",
+    "bairro": "Centro",
+    "descricao": "Organização voltada à arte-educação, esporte e protagonismo juvenil em comunidades vulneráveis.",
+    "imagem": "https://caeba.org.br/wp-content/uploads/2023/11/caeba2023-300x300.jpg",
+    "latitude": -12.70178023393163, 
+    "longitude":-38.31875076666658
+  },
+  {
+    "id": 5,
+    "nome": "UPAMC",
+    "categoria": "Cultura Afro-Brasileira",
+    "bairro": "Monte Gordo",
+    "descricao": "Entidade dedicada à valorização das tradições de matriz africana e combate ao racismo religioso.",
+    "imagem": "https://agenciaamapa.com.br/midias/2025/pequenas/20251126224703-GC00033470-F00112999.webp",
+    "latitude": -12.640256356101323, 
+    "longitude": -38.08838310280218
+  },
+  {
+    "id": 6,
+    "nome": "CRAS",
+    "categoria": "Assistência Social",
+    "bairro": "Diversos Bairros",
+    "descricao": "Centro que desenvolve ações de fortalecimento comunitário e proteção social básica.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10",
+    "latitude": -12.704073507297908, 
+    "longitude": -38.31931406776447
+  },
+  {
+    "id": 7,
+    "nome": "De Olho no Bairro",
+    "categoria": "Cidadania",
+    "bairro": "Nova Vitória",
+    "descricao": "Iniciativa de mobilização popular e construção de soluções para os desafios dos bairros.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA0LZA_XIjtdqkM5LmbFlV1PDQfkfW_-_XOrNZexkB1IN1FGfhFXys9vkx&s=10",
+    "latitude": -12.69797335748334, 
+    "longitude": -38.31430502533231
+  },
+  {
+    "id": 8,
+    "nome": "Centro Comunitário Recanto das Árvores",
+    "categoria": "Desenvolvimento Local",
+    "bairro": "Phoc III",
+    "descricao": "Espaço que promove atividades educativas e de integração para famílias da região.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnyFmwpX9uZ3vk8WctyVqqzQDt8IMHGoq_0deXfVoGPA&s",
+    "latitude": -12.718467363385487, 
+    "longitude": -38.33687508128809
+  },
+  {
+    "id": 9,
+    "nome": "Núcleo de Cultura Étnico-Racial",
+    "categoria": "Política Pública",
+    "bairro": "Centro",
+    "descricao": "Órgão municipal para valorização das culturas afro-brasileiras, indígenas e tradicionais. Em parceria com a SECULT, dependências na cidade do saber.",
+    "imagem": "https://gestalt.com.br/src/uploads/2022/08/whatsapp-image-2022-08-29-at-12-24-51.jpeg",
+    "latitude": -12.69746786391633, 
+    "longitude": -38.32188660957569
+  }
+]
+    
