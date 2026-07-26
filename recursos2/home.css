@@ -353,3 +353,76 @@ footer{
     .user-profile h3:hover {
         transform: scale(1.05);
     }
+
+    .infoUsuario{
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+}
+
+.statusUsuario{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    background:#ffffff;
+    padding:8px 14px;
+
+    border-radius:12px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+
+    min-width:120px;
+
+}
+
+.iconeStatus{
+
+    font-size:1.6rem;
+
+}
+
+.statusUsuario small{
+
+    display:block;
+    color:#777;
+    font-size:.75rem;
+
+}
+
+.statusUsuario h4{
+
+    margin:0;
+    color:#1b8f55;
+    font-size:1rem;
+    font-weight:700;
+
+}
+
+.usuarioNome{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    padding-left:10px;
+    border-left:2px solid #d9d9d9;
+
+}
+
+.usuarioNome small{
+
+    color:#777;
+    font-size:.75rem;
+
+}
+
+.usuarioNome h3{
+
+    margin:0;
+    font-size:1rem;
+
+}

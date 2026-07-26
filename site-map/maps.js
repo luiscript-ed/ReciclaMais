@@ -100,56 +100,10 @@ function obterIcone(categoria){
 
     switch(categoria){
 
-        case "Educação":
-            icone = "fa-graduation-cap";
-            cor = "#3F51B5";
-            break;
-
-        case "Educação e Cultura":
-            icone = "fa-book-open";
-            cor = "#5E35B1";
-            break;
-
-        case "Arte-Educação":
-            icone = "fa-palette";
-            cor = "#8E24AA";
-            break;
-
-        case "Cultura Afro-Brasileira":
-            icone = "fa-drum";
-            cor = "#6D4C41";
-            break;
-
-        case "Assistência Social":
-            icone = "fa-hand-holding-heart";
+        case categoria:
+            icone = "fa-seedling";
             cor = "#26A69A";
             break;
-
-        case "Saúde":
-            icone = "fa-heart-pulse";
-            cor = "#E53935";
-            break;
-
-        case "Cidadania":
-            icone = "fa-people-group";
-            cor = "#039BE5";
-            break;
-
-        case "Desenvolvimento Local":
-            icone = "fa-seedling";
-            cor = "#43A047";
-            break;
-
-        case "Política Pública":
-            icone = "fa-landmark";
-            cor = "#546E7A";
-            break;
-
-        case "Patrimônio Cultural":
-            icone = "fa-monument";
-            cor = "#FF9800";
-            break;
-
     }
 
     return L.divIcon({
@@ -324,6 +278,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const buttonAbrirHamburger = document.getElementById("btnPesquisar1");
   const painelHamburger = document.getElementById("sidebar");
   const listaProjetos = document.getElementById("listaProjetos");
+  const buttonOutraABa = document.getElementById("recicla")
 
   if (!botaoAbrir) {
     console.warn("Botão com id 'buttonFilter' não encontrado.");
@@ -334,6 +289,11 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
+  buttonOutraABa.addEventListener("click", function(){
+    window.location.href="https://luiscript-ed.github.io/ReciclaMais/";
+
+  })
+  
   buttonAbrirHamburger.addEventListener("click", function(){
 
     painelHamburger.classList.toggle("active");
