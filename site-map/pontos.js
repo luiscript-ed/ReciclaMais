@@ -52,13 +52,11 @@ console.log(divisaoSpan);
 console.log(porcSpan);
 console.log(meta);
 
-
 let porcen = (ponto/metaValor)*100;
 divisaoSpan.innerHTML = `${ponto} / ${metaValor}`;
 porcSpan.innerHTML = `${porcen.toFixed(1)}%`;
 
-const barra = document.querySelector(".barraInterna");
-console.log(barra);
+const barra = document.getElementById("barraInterna");
 barra.style.width = `${porcen}%`;
 
 // Criando fisicamente a div do card antes de usar
