@@ -1161,7 +1161,8 @@ position: relative;
 
 }
 
-.medalha{
+/* Medalha 3 */
+.medalha3{
 
     width:80px;
 
@@ -1185,7 +1186,7 @@ position: relative;
 
 }
 
-.medalha.desbloqueada{
+.medalha3.desbloqueada{
 
     background:#e9fff0;
 
@@ -1195,11 +1196,136 @@ position: relative;
 
 }
 
-.medalha:hover{
+.medalha3:hover{
 
     transform:scale(1.08);
 
 }
+
+/* Medalha 2 */
+.medalha2{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    background:#ececec;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:2rem;
+
+    filter:grayscale(1);
+
+    transition:.3s;
+
+}
+
+.medalha2.desbloqueada{
+
+    background:#e9fff0;
+
+    filter:none;
+
+    border:2px solid #23a455;
+
+}
+
+.medalha2:hover{
+
+    transform:scale(1.08);
+
+}
+
+/* Medalha 1 */
+.medalha1{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    background:#ececec;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:2rem;
+
+    filter:grayscale(1);
+
+    transition:.3s;
+
+}
+
+.medalha1.desbloqueada{
+
+    background:#e9fff0;
+
+    filter:none;
+
+    border:2px solid #23a455;
+
+}
+
+.medalha1:hover{
+
+    transform:scale(1.08);
+
+}
+
+/* Medalha Dima */
+.medalhaDima{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    background:#ececec;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:2rem;
+
+    filter:grayscale(1);
+
+    transition:.3s;
+
+}
+
+.medalhaDima.desbloqueada{
+
+    background:#e9fff0;
+
+    filter:none;
+
+    border:2px solid #23a455;
+
+}
+
+.medalhaDima:hover{
+
+    transform:scale(1.08);
+
+}
+
+/* Resto */
 
 .historico{
 
