@@ -298,9 +298,10 @@ footer{
 
 
 
-.ia-sidebar.active{
-    right: -20%;
+.ia-sidebar.active {
     position: relative;
+    right: 0;
+    margin-left: 0; /* Remove a margem extra de 30px que vem da classe base */
 }
 
 .ia-sidebar p{
@@ -586,11 +587,7 @@ position: relative;
 
 }
 
-.container-mapa.active{
 
-    width: calc(100% - 320px);
-
-}
 
 .sidebar{
 
@@ -724,8 +721,6 @@ position: relative;
 
     position:fixed;
 
-    top:246px;
-
     right: -340px;;
 
     width:300px;
@@ -753,7 +748,8 @@ position: relative;
 .painelFiltros.active{
 
     right:20px;
-    position: absolute;
+    position: relative;
+    margin-left: 2%;
 
 }
 
@@ -896,7 +892,7 @@ position: relative;
 
 .painelFiltros::-webkit-scrollbar-thumb{
 
-    background:#0095d0;
+    background:#00c2d0;
     border-radius:10px;
 
 }
@@ -998,6 +994,7 @@ position: relative;
     display:flex;
     justify-content:center;
     margin:60px 0;
+    margin-top: 7.5%;
 
 }
 

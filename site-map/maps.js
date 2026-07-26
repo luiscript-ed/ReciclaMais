@@ -8,7 +8,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
 }).addTo(mapa); 
 
 const marcadores = [];
-let cardSelecionado = null; // 1. CORRIGIDO: Declarando a variável de seleção globalmente
+let cardSelecionado = null;
 
 // Elementos do HTML
 const inputPesquisa = document.getElementById("pesquisaProjeto");
@@ -78,7 +78,7 @@ function aplicarFiltros() {
         }
 
     });
-        contadorResultados.textContent = `${quantidade} projeto${quantidade != 1 ? "s" : ""}`;
+        contadorResultados.textContent = `${quantidade} ecoponto${quantidade != 1 ? "s" : ""}`;
 }
 
 aplicarFiltros()
@@ -181,7 +181,7 @@ fetch("../bancoRecicla/coleta.json")
 ];
 
         const bairros = [
-    ...new Set(
+        ...new Set(
         projetos.map(p => p.bairro)
     )
         ];
