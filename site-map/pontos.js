@@ -48,6 +48,11 @@ pontoFront.innerHTML = ponto;
 const divisaoSpan = document.getElementById("divisao");
 const porcSpan = document.getElementById("porcentagem");
 
+console.log(divisaoSpan);
+console.log(porcSpan);
+console.log(meta);
+console.log(barra);
+
 let porcen = (ponto/metaValor)*100;
 divisaoSpan.innerHTML = `${ponto} / ${metaValor}`;
 porcSpan.innerHTML = `${porcen.toFixed(1)}%`;
