@@ -66,6 +66,12 @@ verifydate()
 if( registro && dataValida == false){
     mensagemH1.innerHTML = "Oops"
     mensagemH3.innerHTML = "Voce já resgatou esse local. O certo é só resgatar uma vez por mês!!"
+    setTimeout(()=>{
+
+        window.location.href="https://luiscript-ed.github.io/ReciclaMais/site-map/mapa.html";
+
+    },3000);
+
 } else {
     if (registro) {
 
