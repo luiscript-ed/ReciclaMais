@@ -61,28 +61,20 @@ barra.style.width = `${porcen}%`;
      card.className = "historico";
 
      const ultima = JSON.parse(localStorage.getItem("ultimaAtividade"));
-    // Montando o HTML interno do card 
-    card.innerHTML = `
 
+if (ultima) {
+
+    card.innerHTML = `
         <h3>Última atividade</h3>
 
-            <ul>
+        <ul>
+            <li>
+                📍 ${ultima.local}<br>
+                ⭐ +${ultima.pontos} pontos<br>
+                📅 ${ultima.data}
+            </li>
+        </ul>
+    `;
 
-                <li>
-
-                    📍 ${ultima.local}
-
-                    <br>
-
-                        ⭐ +${ultima.pontos} pontos
-
-                    <br>
-
-                        📅 ${ultima.data}
-
-                    </li>
-
-                </ul>
-
-`;
+}
             containerHistorico.appendChild(card);
