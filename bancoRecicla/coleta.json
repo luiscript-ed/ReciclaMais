@@ -12,7 +12,7 @@
   {
     "id": 2,
     "nome": "COOPMARC - (Cooperativa de Materiais Recicláveis de Camaçari)",
-    "categoria": "Reciclagem",
+    "categoria": "Reciclagem Integral",
     "bairro": "Jardim Limoeiro",
     "descricao": "Cooperativa de catadores responsável pela triagem, separação, prensagem e comercialização de materiais recicláveis coletados em Camaçari.",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToeaCHK_mgytnBMGLgWGtOVhP_7vRo5HaEGH4VjCdTmqQgThNGb5nT51Pa&s=10",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "nome": "Ecoponto do Boulevard Shopping Camaçari",
-    "categoria": "Reciclagem",
+    "categoria": "Reciclagem Integral",
     "bairro": "industrial",
     "descricao": "ponto de entrega voluntária de resíduos recicláveis, implantado em parceria entre a LIMPEC e o shopping.",
     "imagem": "https://boulevardfeira.com.br/data/files/3B/54/5A/39/BEB56810CC747568180808FF/FPD-Desktop_ECOPONTO.png",
@@ -31,63 +31,53 @@
   },
   {
     "id": 4,
-    "nome": "Fundação Ca&Ba",
-    "categoria": "Arte-Educação",
-    "bairro": "Centro",
-    "descricao": "Organização voltada à arte-educação, esporte e protagonismo juvenil em comunidades vulneráveis.",
-    "imagem": "https://caeba.org.br/wp-content/uploads/2023/11/caeba2023-300x300.jpg",
-    "latitude": -12.70178023393163, 
-    "longitude":-38.31875076666658
+    "nome": "Eco TI Logística Reversa dos Eletroeletrônicos",
+    "categoria": "Reciclagem Eletrônica",
+    "bairro": "Jardim Limoeiro.",
+    "descricao": "Ponto de coleta especializado no recebimento de resíduos eletroeletrônicos, como computadores, notebooks, celulares, impressoras, cabos e acessórios. Atua na logística reversa, garantindo o descarte ambientalmente correto desses equipamentos.",
+    "imagem": "https://www.ecoti.com.br/template/imagens/palavras-chave/logistica-reversa.jpg",
+    "latitude": -12.730478469812535,
+    "longitude": -38.29420541227288 
   },
   {
     "id": 5,
-    "nome": "UPAMC",
-    "categoria": "Cultura Afro-Brasileira",
-    "bairro": "Monte Gordo",
-    "descricao": "Entidade dedicada à valorização das tradições de matriz africana e combate ao racismo religioso.",
-    "imagem": "https://agenciaamapa.com.br/midias/2025/pequenas/20251126224703-GC00033470-F00112999.webp",
-    "latitude": -12.640256356101323, 
-    "longitude": -38.08838310280218
+    "nome": "SO+MA",
+    "categoria": "Reciclagem Integral",
+    "bairro": "Centro",
+    "descricao": "Ponto de entrega de materiais recicláveis que incentiva a coleta seletiva e a reciclagem. Desenvolve ações de educação ambiental e estimula a participação da população no descarte correto dos resíduos.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLtmBlx4RfEpAgw0ZQPa8_gVSWr47A5EXwBAo75qsOEQg3AZf8MEh4CtKV&s=10",
+    "latitude": -12.700233824233052, 
+    "longitude": -38.323759616255
   },
   {
     "id": 6,
-    "nome": "CRAS",
-    "categoria": "Assistência Social",
-    "bairro": "Diversos Bairros",
-    "descricao": "Centro que desenvolve ações de fortalecimento comunitário e proteção social básica.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8eg9qStyzjqk528nSvFDBhPSS6LogpqjuedOyWFBZQ&s=10",
-    "latitude": -12.704073507297908, 
-    "longitude": -38.31931406776447
+    "nome": "L.A Reciclagem",
+    "categoria": "Reciclagem Integral",
+    "bairro": "Na Rua Juscelino Kubitschek",
+    "descricao": "Empresa especializada na coleta, separação e destinação de materiais recicláveis, contribuindo para a redução dos resíduos enviados aos aterros sanitários.",
+    "imagem": "https://lh3.googleusercontent.com/sitesv/AG8ngQUsu17-OpMPGKg9l3DVMCJCJblgQ5Cxh1R0EdrDegjw4G6SkDCo2BM7xO_DNNWCjOhmfsBghWpppmOqR03j9bPSZSiNjwIQtUTStfrC33-3mVQ3RY88o9JU4GhramJ6LroUsomrZ5Eie2meQEdYMezhROLx_bVnY50hPK69pIuFkxqpUU9qTZx-MgzBWX2j6Qa4QbHvUVMB1jF3esHjZPo6W7JGst_MCTXkK4LJGk0=w1280",
+    "latitude": -12.736932867216492,
+    "longitude": -38.33032091422044 
   },
   {
     "id": 7,
-    "nome": "De Olho no Bairro",
-    "categoria": "Cidadania",
-    "bairro": "Nova Vitória",
-    "descricao": "Iniciativa de mobilização popular e construção de soluções para os desafios dos bairros.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA0LZA_XIjtdqkM5LmbFlV1PDQfkfW_-_XOrNZexkB1IN1FGfhFXys9vkx&s=10",
-    "latitude": -12.69797335748334, 
-    "longitude": -38.31430502533231
+    "nome": "EcoPEV Arembepe",
+    "categoria": "Reciclagem Integral",
+    "bairro": "Volta do Robalo",
+    "descricao": "Ponto Ecológico de Entrega Voluntária destinado ao descarte correto de pequenos volumes de entulho, resíduos da construção civil, podas de árvores, móveis, eletrodomésticos e materiais recicláveis, como papel, plástico, vidro e metal.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaH4krrh2jvaVSqVYcp7uubDlG4LcXveaAhsRLKVpgyEjGGZGeUqUMl6l&s=10",
+    "latitude": -12.7675544279622, 
+    "longitude": -38.184512922088174 
   },
   {
     "id": 8,
-    "nome": "Centro Comunitário Recanto das Árvores",
-    "categoria": "Desenvolvimento Local",
-    "bairro": "Phoc III",
-    "descricao": "Espaço que promove atividades educativas e de integração para famílias da região.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnyFmwpX9uZ3vk8WctyVqqzQDt8IMHGoq_0deXfVoGPA&s",
-    "latitude": -12.718467363385487, 
-    "longitude": -38.33687508128809
+    "nome": "EcoPEV Ponto Certo",
+    "categoria": "Reciclagem Integral",
+    "bairro": "Ponto Certo",
+    "descricao": "Ponto Ecológico de Entrega Voluntária criado para receber pequenos volumes de entulho, resíduos da construção civil, podas, móveis usados e materiais recicláveis.",
+    "imagem": "https://destaque1.com/wp-content/uploads/2022/12/Segov_Sesp_ecpPEV-Nova-Vitoria_Jean-Victor_descarte-lixo.jpg",
+    "latitude": -12.716749265928968,
+    "longitude": -38.31666038563871
   },
-  {
-    "id": 9,
-    "nome": "Núcleo de Cultura Étnico-Racial",
-    "categoria": "Política Pública",
-    "bairro": "Centro",
-    "descricao": "Órgão municipal para valorização das culturas afro-brasileiras, indígenas e tradicionais. Em parceria com a SECULT, dependências na cidade do saber.",
-    "imagem": "https://gestalt.com.br/src/uploads/2022/08/whatsapp-image-2022-08-29-at-12-24-51.jpeg",
-    "latitude": -12.69746786391633, 
-    "longitude": -38.32188660957569
-  }
 ]
     
