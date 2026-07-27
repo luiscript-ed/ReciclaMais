@@ -1,33 +1,33 @@
 [
   {
     "id": 1,
-    "nome": "Projeto Abrace",
-    "categoria": "Educação",
-    "bairro": "Centro",
-    "descricao": "Projeto voltado ao reforço escolar e inclusão social.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5sBw56UrxuEvDn6hQ6-9-oRKKQ4ngkfb6ASt4SzyEaQ&s",
-    "latitude": -12.702880103137602,
-    "longitude": -38.325156552669014
+    "nome": "LIMPEC - Empresa de Limpeza Pública de Camaçari",
+    "categoria": "Limpeza Pública",
+    "bairro": "Jardim Limoeiro",
+    "descricao": "Empresa pública municipal responsável pelos serviços de limpeza urbana, coleta de resíduos sólidos, coleta seletiva, gestão de ecopontos e educação ambiental em Camaçari.",
+    "imagem": "https://limpec.com.br/wp-content/uploads/2026/04/3e7f74c66cd221ee71cacaf24e6c72e9.webp",
+    "latitude": -12.694975281401844,
+    "longitude": -38.29002044748913
   },
   {
     "id": 2,
-    "nome": "Projeto Nova Vida",
-    "categoria": "Saúde",
-    "bairro": "Nova Vitória",
-    "descricao": "Projeto de atendimento comunitário.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-fUcKMumrSm8EBhMrQn1HtyFfnWyT4UuqXyJi1_Pbw&s=10",
-    "latitude": -12.702676562367316,
-    "longitude": -38.311871981158966
+    "nome": "COOPMARC - (Cooperativa de Materiais Recicláveis de Camaçari)",
+    "categoria": "Reciclagem",
+    "bairro": "Jardim Limoeiro",
+    "descricao": "Cooperativa de catadores responsável pela triagem, separação, prensagem e comercialização de materiais recicláveis coletados em Camaçari.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToeaCHK_mgytnBMGLgWGtOVhP_7vRo5HaEGH4VjCdTmqQgThNGb5nT51Pa&s=10",
+    "latitude": -12.697139413236503,
+    "longitude": -38.28798950743804
   },
   {
     "id": 3,
-    "nome": "Cidade do Saber",
-    "categoria": "Educação e Cultura",
-    "bairro": "Centro",
-    "descricao": "Complexo público de educação, cultura e esporte que oferece formação artística e profissional.",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJ_gLs2-hvVMq6ABsQCMyas56qdRyKzph25GTCfKSn3mxBxpNjULM3PaU&s=10",
-    "latitude": -12.69746786391633, 
-    "longitude": -38.32188660957569
+    "nome": "Ecoponto do Boulevard Shopping Camaçari",
+    "categoria": "Reciclagem",
+    "bairro": "industrial",
+    "descricao": "ponto de entrega voluntária de resíduos recicláveis, implantado em parceria entre a LIMPEC e o shopping.",
+    "imagem": "https://boulevardfeira.com.br/data/files/3B/54/5A/39/BEB56810CC747568180808FF/FPD-Desktop_ECOPONTO.png",
+    "latitude": -12.71124141610863,
+    "longitude": -38.30538613470498
   },
   {
     "id": 4,
