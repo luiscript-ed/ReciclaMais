@@ -11,7 +11,8 @@ const hoje = new Date();
 
 const registro = listaLocalidades.find(item => item.local === local);
 // Tabela de dados com pontos de cada local
-
+const mensagemH1 = document.getElementById("mensagemH1");
+const mensagemH3 = document.getElementById("mensagemH3");
 
 const locais = {
 
@@ -37,16 +38,18 @@ const recompensa = locais[local];
 if (!recompensa) {
     mensagemH1.innerHTML = "QR Code inválido";
     mensagemH3.innerHTML = "Este QR Code não é reconhecido.";
+    setTimeout(()=>{
 
-    throw new Error("QR inválido");
+        window.location.href="https://luiscript-ed.github.io/ReciclaMais/site-map/mapa.html";
+
+    },3000);
 }
 
 let dataValida = false
 
 //Começo do Fim
 
-const mensagemH1 = document.getElementById("mensagemH1");
-const mensagemH3 = document.getElementById("mensagemH3");
+
 
 function verifydate(){
     if(!registro){
