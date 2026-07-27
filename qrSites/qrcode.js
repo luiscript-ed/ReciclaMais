@@ -26,9 +26,9 @@ const locais = {
         pontos:35
     },
 
-    Escola:{
-        nome:"Escola Municipal",
-        pontos:15
+    COOPMARC:{
+        nome:"Cooperativa de Materiais Recicláveis de Camaçari",
+        pontos:25
     }
 
 };
