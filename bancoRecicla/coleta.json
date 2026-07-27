@@ -53,9 +53,9 @@
     "id": 6,
     "nome": "L.A Reciclagem",
     "categoria": "Reciclagem Integral",
-    "bairro": "Na Rua Juscelino Kubitschek",
+    "bairro": "Gleba E",
     "descricao": "Empresa especializada na coleta, separação e destinação de materiais recicláveis, contribuindo para a redução dos resíduos enviados aos aterros sanitários.",
-    "imagem": "https://lh3.googleusercontent.com/sitesv/AG8ngQUsu17-OpMPGKg9l3DVMCJCJblgQ5Cxh1R0EdrDegjw4G6SkDCo2BM7xO_DNNWCjOhmfsBghWpppmOqR03j9bPSZSiNjwIQtUTStfrC33-3mVQ3RY88o9JU4GhramJ6LroUsomrZ5Eie2meQEdYMezhROLx_bVnY50hPK69pIuFkxqpUU9qTZx-MgzBWX2j6Qa4QbHvUVMB1jF3esHjZPo6W7JGst_MCTXkK4LJGk0=w1280",
+    "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnkhpGNj-263ztAKQnaMSrjqWu7l2wTdp4_GZzx_ft19WLtc8q5izpgjXvC7iH4qoG9j-8BhyJQavGsd_qLHJ8mUX3CmN0DWtEErSjAi4AqkUYcvmpssV5qw9FYcIj89VNPDc6ctyQDI6Ui=w203-h179-k-no",
     "latitude": -12.736932867216492,
     "longitude": -38.33032091422044 
   },
@@ -78,6 +78,6 @@
     "imagem": "https://destaque1.com/wp-content/uploads/2022/12/Segov_Sesp_ecpPEV-Nova-Vitoria_Jean-Victor_descarte-lixo.jpg",
     "latitude": -12.716749265928968,
     "longitude": -38.31666038563871
-  },
+  }
 ]
     

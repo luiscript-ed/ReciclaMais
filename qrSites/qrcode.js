@@ -29,7 +29,32 @@ const locais = {
     COOPMARC:{
         nome:"Cooperativa de Materiais Recicláveis de Camaçari",
         pontos:25
-    }
+    },
+
+    EcoTI:{
+        nome:"Logística Reversa dos Eletroeletrônicos",
+        pontos:30
+    },
+
+    SOMA:{
+        nome:"SO+MA",
+        pontos:20
+    },
+
+    LAReciclagem:{
+        nome:"L.A Reciclagem",
+        pontos:25
+    },
+
+    EcoPEV_AR:{
+        nome:"EcoPEV Arembepe",
+        pontos:35
+    },
+
+    EcoPEV_PC:{
+        nome:"EcoPEV Ponto Certo",
+        pontos:30
+    },
 
 };
 
