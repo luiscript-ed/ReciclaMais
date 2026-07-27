@@ -63,7 +63,7 @@ header{
 }
 
 .logo button{
-  background-color: #d2fff0;
+  background-color: #48fcc6;
   color: #ffffff;             
   padding: 12px 24px;        
   font-size: 12px;         
@@ -84,7 +84,7 @@ header{
 
 
 .logo button:hover {
-  background-color: #b6ffffc7; /* Escurece a cor de fundo */
+  background-color: #1e5353c7; /* Escurece a cor de fundo */
   transform: translateY(-2px); /* Move o botão levemente para cima */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Aumenta a sombra */
 }
