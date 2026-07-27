@@ -13,6 +13,9 @@ const medalha2 = document.querySelector(".medalha2");
 const medalha1 = document.querySelector(".medalha1");
 const medalhaDima = document.querySelector(".medalhaDima");
 
+document.getElementById("username").textContent =
+    localStorage.getItem("nome") || "Indefinido";
+    
 let porcentagem = 0;
 
 if (ponto <= 150) {

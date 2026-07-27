@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   const painelMapa = document.getElementById("painelEsq");
-  const botaoAbrirPainel = document.getElementById("button");
+  const botaoAbrirPainel = document.getElementById("buttonAbrirAAbaDoLado");
   const mapaAba = document.querySelector(".container-mapa");
   const buttonAbrirHamburger = document.getElementById("btnPesquisar1");
   const painelHamburger = document.getElementById("sidebar");
